@@ -50,5 +50,7 @@ The figure below shows the conversion of the ‘remaining_lease’ feature from 
 ![Data Info](Data/hdb_df_feature_eng_001.png)
 
 ![Data Info](Data/hdb_df_feature_eng_002.png)
+
 ##Exploratory Data Analysis (EDA)
+
 ###Descriptive Statistics
