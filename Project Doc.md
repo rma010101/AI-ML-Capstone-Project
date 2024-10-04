@@ -146,3 +146,25 @@ The steps below (refer to the figure and code below) demonstrate the one-hot enc
 ## Model Development
 
 ### Algorigthm Selection
+In this section, I will explore various machine learning algorithms, in particular the Linear Regression, Decision Trees, and Random Forest, to predict resale prices. The reasons for selecting these algorithms are as follows:
+
+Linear Regression
+•	Simplicity: It’s a straightforward algorithm that is easy to implement and interpret.
+
+•	Efficiency: Works well with smaller datasets and provides a good baseline for comparison with more complex models.
+
+•	Interpretability: The coefficients can give insights into the relationship between features and the target variable.
+
+Decision Trees
+•	Non-linearity: Can capture non-linear relationships between features and the target variable.
+
+•	Interpretability: The tree structure is easy to visualize and understand, making it clear how decisions are made.
+
+•	Feature Importance: Can provide insights into the importance of different features in predicting the target variable.
+
+Random Forest
+•	Robustness: Combines multiple decision trees to reduce overfitting and improve generalization.
+
+•	Accuracy: Often provides better predictive performance compared to individual decision trees.
+
+•	Feature Importance: Aggregates feature importance from multiple trees, giving a more reliable measure of feature significance.
