@@ -189,6 +189,37 @@ This setup allows the model to use the input features to predict resale prices i
 
 The code below demonstrates the steps involved in training the model. It starts by importing the required libraries and evaluation metrics, then proceeds to instantiate the model using Linear Regression. The model is then fitted to the training data, and finally, the results are generated.
 
-![Data MT_001](Data/hdb_df_model_training_002.png)
+![Data MT_002](Data/hdb_df_model_training_002.png)
+
+## Model Evaluation
+
+### Performance Metrics
+
+In this section, the performance of this regression model is evaluated to determine its efficacy in predicting the target variable accurately and reliably. To assess the quality of this model, I used three key metrics: R-squared (R²), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE). By analysing these metrics, we can gauge the accuracy of the predictions, identify potential overfitting, and understand the model's strengths and weaknesses in capturing the underlying data patterns.
+
+Key results
+
+Mean Absolute Error (MAE): $73,883.89
+
+This metric indicates the average magnitude of errors in predictions. In this case, the average difference between the predicted and actual values is around $73,484.42.
+
+R-squared Score (R²): 72%
+
+The R-squared score indicates how well the model captures the variability of the target variable. A score of 72% means that 72% of the total variance in resale price can be explained by the feature variables, suggesting that the model provides a reasonably good fit to the data.
+
+Root Mean Squared Error (RMSE): $91,456.30
+
+RMSE represents the square root of the average of the squared differences between the predicted and actual values. An RMSE of $91,002.31, which is larger than the MAE, indicates that some predictions are significantly farther from the actual values. This suggests that the dataset may have considerable variability, or improvements might be needed, such as exploring different model types to reduce prediction errors.
+
+### Model Comparison
+
+Additionally, the model is trained using Decision Tree Regression and Random Forest algorithms. The goal is to compare and evaluate which model performs best for predicting HDB resale prices.
+
+The models are evaluated using Mean Absolute Error (MAE), R-squared (R²), and Root Mean Squared Error (RMSE) metrics to determine which performs best on the same test set (refer to figures below).
+
+![Data Results_Compared_001](Data/hdb_df_model_results_compared_001.png)
+
+![Data Results_Compared_002](Data/hdb_df_model_results_compared_002.png)
+
 
 
