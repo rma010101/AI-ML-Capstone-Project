@@ -36,4 +36,6 @@ The boxplot below for ‘floor_area_sqm’ indicates significant outliers, with 
 
 Furthermore, there are only a total 976 out of 181262 entries, strengthening the rationale for their removal.
 
+The boxplot below shows the outlier analysis for ‘resale_price’. The boxplot reveals numerous data points outside the upper bound of Q3 + 1.5 x IQR. Further investigation indicated a total of 3858 entries in this category. A check on the maximum transacted price revealed that the highest transaction is at $1588000, which although seemingly high, accurately reflects the current market trend, particularly on the higher end model. As a result, I have decided to retain all these outliers.
+
 !['resale_price'_Outliers](Data/hdb_df_resale_price_outliers.png)
