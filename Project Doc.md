@@ -238,4 +238,12 @@ The results continue to improve, with the MAE further reduced to $40,324.28 and 
 
 Overall, the consistent decline in MAE and RMSE, along with the increase in R-squared scores, demonstrates effective model enhancement across the tests, suggesting that the techniques or parameters being adjusted are yielding positive results.
 
+### Model Adjustments
+
+Given the unexpectedly low correlation between ‘town’ and ‘resale_price’ shown in the heatmap, which contrasts with findings that towns closer to amenities tend to have higher resale prices, I will now attempt to remove all the outliers that were retained in the earlier analysis.
+
+Analysing Outliers by Flat Types
+
+This analysis aims to identify the onset of outliers within the dataset categorized by ‘flat_type’. Once identified, the records containing these outliers will be removed. This adjustment is intended to evaluate whether the model’s performance can be enhanced by excluding these extreme values.
+
 
