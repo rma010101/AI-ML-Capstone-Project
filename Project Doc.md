@@ -276,15 +276,15 @@ The HDB Resale Prediction Project has successfully demonstrated the potential of
 
 ### Key Findings
 
-	Predictive Performance and Accuracy
+•	Predictive Performance and Accuracy
 
 The model’s performance metrics indicate a robust ability to predict resale prices, with a mean absolute error (MAE) of $ 40828.95, R-squared (R²) of 89% and a root mean square error (RMSE) of $ 57943.24.
 
-	Feature Importance
+•	Feature Importance
 
 Flat type and floor area emerged as the most significant predictors, highlighting the importance of flat type and size in determining resale values.
 
-	Biases 
+•	Biases 
 
 Although not examined in this project, the dataset may contain historical biases, such as location preferences or economic conditions that have evolved over time.
 
