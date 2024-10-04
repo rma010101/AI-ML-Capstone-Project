@@ -24,3 +24,4 @@ In the initial stages of this data preparation, features deemed inconsequential 
 
 The features removed were ‘street_name’, ‘flat_model’ and ‘block’ (refer to figure below).
 
+![Initial Features Removed](Data/hdb_df_feature_removed_001.png)
