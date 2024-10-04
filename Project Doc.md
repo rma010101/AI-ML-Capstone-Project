@@ -76,3 +76,7 @@ positive factor for potential buyers.
 Graphical visualizations are powerful tools in data analysis, enabling the identification of trends and patterns that support informed decision-making. In this project, however, the primary purpose of the graphs is to validate the data. For instance, we expect that the price will increase as the floor size increases across all towns, as shown below.
 
 ![Data EDA_001](Data/hdb_df_eda_001.PNG)
+
+In the next analysis, the histogram (refer to figure below) provides a clear visual representation of the distribution of HDB resale prices across different flat types. 
+
+![Data EDA_001](Data/hdb_df_eda_002.PNG)
