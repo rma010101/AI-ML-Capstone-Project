@@ -265,3 +265,7 @@ The figure below illustrates the correlation after adjusting for outliers. The c
 Here are the results (refer to figures below) of the MAE, R², and RMSE scores after iterating with Linear Regression, Decision Tree Regression, and Random Forest models:
 
 ![Data Result After_Adjustment_001](Data/hdb_df_results_after_adjustment_001.PNG)
+
+When comparing the results before and after removing outliers (refer to figures below), improvements in the MAE and RMSE scores are evident. However, the R² scores have decreased slightly by 1 to 2%. The decision to retain or remove outliers is debatable, but I recommend keeping the outliers to ensure the results remain realistic and to capture the real situation in the market.
+
+![Data Result Before After_Adjustment_001](Data/hdb_df_results_before_after_adjustment_001.PNG)
