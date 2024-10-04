@@ -55,7 +55,7 @@ The figure below shows the conversion of the ‘remaining_lease’ feature from 
 
 ### Descriptive Statistics
 
-#### key Insights
+#### Key Insights
 
 Floor Area:
 
