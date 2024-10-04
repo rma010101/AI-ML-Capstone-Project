@@ -19,7 +19,7 @@ All feature columns, except for three, contains categorical datatypes. The featu
 
 Importantly, the entries to all the features are complete ie there are no null entries or missing values. 
 
-### Feature Removal
+#### Feature Removal
 In the initial stages of this data preparation, features deemed inconsequential to the resale price were removed. The selection was based on a judgement call, leveraging my familiarity and understanding of the housing market. Later, a correlation analysis will be conducted to determine which of the remaining features significantly impact the resale price. 
 
 The features removed were ‘street_name’, ‘flat_model’ and ‘block’ (refer to figure below).
