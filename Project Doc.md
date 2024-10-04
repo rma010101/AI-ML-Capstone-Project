@@ -80,3 +80,19 @@ Graphical visualizations are powerful tools in data analysis, enabling the ident
 In the next analysis, the histogram (refer to figure below) provides a clear visual representation of the distribution of HDB resale prices across different flat types. 
 
 ![Data EDA_001](Data/hdb_df_eda_002.PNG)
+
+#### Observations:
+
+Price Distribution
+The resale prices for 3 ROOM and 4 ROOM flats are more concentrated in the lower price ranges, while EXECUTIVE and MULTI-GENERATIONAL flats have a wider spread extending into higher price range.
+
+Market Trends
+The higher count of 4 ROOM flats in the mid-price range suggests that they are quite popular, possibly to a balance of size and affordability.
+
+Investment Insights
+For potential investors or buyers, understanding these distributions can help make informed decisions based on budget and flat type preferences.
+
+Policy Implications
+This data could be useful for policymakers to understand housing affordability and demand trends, potentially guiding future housing policies.
+
+From another perspective, when comparing the mean resale prices across various towns by flat types, it becomes evident that certain areas, such as Queenstown, the Central Areas, Bishan, and Ang Mo Kio, consistently have higher prices compared to other towns. This may explain the right-tail distribution of the mean prices across all flat types as shown in the previous graphs. This trend for the mean resale prices across various towns is illustrated in the charts below.
