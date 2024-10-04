@@ -221,5 +221,21 @@ The models are evaluated using Mean Absolute Error (MAE), R-squared (R²), and R
 
 ![Data Results_Compared_002](Data/hdb_df_model_results_compared_002.png)
 
+The results from the three iterations show a clear progression in model performance:
+
+Linear Regression Model
+
+The Mean Absolute Error (MAE) is $73,663.38, with an R-squared score of 72% and a Root Mean Squared Error (RMSE) of $91,239.11. This indicates that the model's predictions are relatively far from the actual values, and the R-squared score suggests that about 72% of the variance in the resale prices is explained by the model.
+
+Decision Tree Regressor Model
+
+There's a noticeable improvement, with the MAE decreasing to $47,623.40 and the R-squared score rising to 83%. The RMSE also improves to $69,734.81. This suggests that the model is better at capturing the underlying patterns in the data, resulting in more accurate predictions.
+
+Random Forest Regressor Model
+
+The results continue to improve, with the MAE further reduced to $40,324.28 and the R-squared score increasing to 89%. The RMSE decreases to $57,064.70, indicating that the model has become significantly more accurate and is able to explain a larger portion of the variance in resale prices.
+
+
+Overall, the consistent decline in MAE and RMSE, along with the increase in R-squared scores, demonstrates effective model enhancement across the tests, suggesting that the techniques or parameters being adjusted are yielding positive results.
 
 
