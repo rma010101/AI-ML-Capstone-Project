@@ -258,4 +258,10 @@ A quick comparison of the filtered versus unfiltered data (see figures below) re
 
 ![Data Model_Adjustment_004](Data/hdb_df_model_adjustment_004.PNG)
 
+The figure below illustrates the correlation after adjusting for outliers. The correlation indices between flat_type, floor_area_sqm, storey_range, and lease_remaining in relation to resale_price have all increased slightly. However, the correlation between town and resale_price has weakened. While this aligns with expectations, removing the town feature is not realistic, as this feature should impact resale prices.
 
+![Data Model_Adjustment_005](Data/hdb_df_model_adjustment_005.png)
+
+Here are the results (refer to figures below) of the MAE, R², and RMSE scores after iterating with Linear Regression, Decision Tree Regression, and Random Forest models:
+
+![Data Result After_Adjustment_001](Data/hdb_df_results_after_adjustment_001.PNG)
