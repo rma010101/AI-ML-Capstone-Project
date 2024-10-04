@@ -1,5 +1,5 @@
 # Predictive Modelling of HDB Resale Prices
-## Leveraging Machine Learning for Market Insights and Decision Support
+# Leveraging Machine Learning for Market Insights and Decision Support
 
 ## Overview
 This project focuses on the application of machine learning to predict HDB resale prices and providing valuable insights for various stakeholders. It highlights the 
