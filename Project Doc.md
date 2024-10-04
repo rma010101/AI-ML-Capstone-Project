@@ -248,8 +248,12 @@ This analysis aims to identify the onset of outliers within the dataset categori
 
 ![Data Model_Adjustment_001](Data/hdb_df_model_adjustment_001.png)
 
-The boxplots above illustrate the outliers for each flat type, marking the initial data points identified for removal. The subsequent figure displays the filtered dataset, with all records containing outliers excluded. As a result, the dataset now comprises 173,851 rows, down from the original 180,286 rows. The figures below show the boxplot and the reconstructed histogram with the removed outliers.
+The boxplots above illustrate the outliers for each flat type, marking the initial data points identified for removal. As a result, the dataset now comprises 173,851 rows, down from the original 180,286 rows. The figures below show the boxplot and the reconstructed histogram with the removed outliers.
 
 ![Data Model_Adjustment_002](Data/hdb_df_model_adjustment_002.png)
 
 ![Data Model_Adjustment_003](Data/hdb_df_model_adjustment_003.png)
+
+A quick comparison of the filtered versus unfiltered data (see figures below) reveals that a significant amount of information has been removed in the filtered dataset. Notably, floor levels from the 43rd storey onwards are missing. This omission does not accurately represent the real situation.
+
+![Data Model_Adjustment_004](Data/hdb_df_model_adjustment_004.png)
