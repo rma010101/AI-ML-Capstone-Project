@@ -130,4 +130,4 @@ Limited availability of flats in these prime locations tends to drive prices up.
 
 To prepare for the correlation analysis, the remaining categorical features (‘town’, ‘flat_type’, and ‘storey_range’) are converted into numerical data types. The ‘town’ feature, which has a larger number of categories, will additionally be one-hot encoded later in preparation for machine learning. 
 
-
+![Data Corr_001](Data/hdb_df_corr_001.png)
