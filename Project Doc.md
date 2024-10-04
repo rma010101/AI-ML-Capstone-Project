@@ -146,7 +146,8 @@ The steps below (refer to the figure and code below) demonstrate the one-hot enc
 ## Model Development
 
 ### Algorigthm Selection
-In this section, I will explore various machine learning algorithms, in particular the Linear Regression, Decision Trees, and Random Forest, to predict resale prices. The reasons for selecting these algorithms are as follows:
+In this section, I will explore various machine learning algorithms, in particular the Linear Regression, Decision Trees, and Random Forest, to predict resale prices. 
+The reasons for selecting these algorithms are as follows:
 
 Linear Regression
 
