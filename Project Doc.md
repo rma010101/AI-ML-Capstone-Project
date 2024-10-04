@@ -47,9 +47,9 @@ For a start, the ‘remaining_lease’ is converted into months to ensure it's s
 
 The figure below shows the conversion of the ‘remaining_lease’ feature from years-and-months format to a months-only format, resulting in a new feature named ‘lease_remaining’, and the removal of ‘remaining_lease’ column. The second figure shows that none of the values in the ‘lease_remaining’ exceeds 1188 months. With the redefinition of ‘remaining_lease’, the features ‘month’ and ‘lease_commence_date’ have become redundant and are removed from the dataset. 
 
-![Data Info](Data/hdb_df_feature_eng_001.png)
+![Data Feature_Rem_001](Data/hdb_df_feature_eng_001.png)
 
-![Data Info](Data/hdb_df_feature_eng_002.png)
+![Data Feature_Rem_002](Data/hdb_df_feature_eng_002.png)
 
 ## Exploratory Data Analysis (EDA)
 
@@ -75,4 +75,4 @@ positive factor for potential buyers.
 ### Visualization
 Graphical visualizations are powerful tools in data analysis, enabling the identification of trends and patterns that support informed decision-making. In this project, however, the primary purpose of the graphs is to validate the data. For instance, we expect that the price will increase as the floor size increases across all towns, as shown below.
 
-![Data Info](Data/hdb_df_eda_001.png)
+![Data EDA_001](Data/hdb_df_eda_001.png)
