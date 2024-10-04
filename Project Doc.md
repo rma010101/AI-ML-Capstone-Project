@@ -269,3 +269,23 @@ Here are the results (refer to figures below) of the MAE, R², and RMSE scores a
 When comparing the results before and after removing outliers (refer to figures below), improvements in the MAE and RMSE scores are evident. However, the R² scores have decreased slightly by 1 to 2%. The decision to retain or remove outliers is debatable, but I recommend keeping the outliers to ensure the results remain realistic and to capture the real situation in the market.
 
 ![Data Result Before After_Adjustment_001](Data/hdb_df_results_before_after_adjustment_001.PNG)
+
+## Conclusion
+
+The HDB Resale Prediction Project has successfully demonstrated the potential of machine learning (ML) and artificial intelligence (AI) in accurately forecasting HDB resale prices. By leveraging a diverse set of features, including location, flat type, floor area, and transaction history, the model achieved a relatively high degree of predictive accuracy.
+
+### Key Findings
+
+	Predictive Performance and Accuracy
+
+The model’s performance metrics indicate a robust ability to predict resale prices, with a mean absolute error (MAE) of $ 40828.95, R-squared (R²) of 89% and a root mean square error (RMSE) of $ 57943.24.
+
+	Feature Importance
+
+Flat type and floor area emerged as the most significant predictors, highlighting the importance of flat type and size in determining resale values.
+
+	Biases 
+
+Although not examined in this project, the dataset may contain historical biases, such as location preferences or economic conditions that have evolved over time.
+
+Also, some machine learning algorithms might inherently favour certain features over others, leading to biased predictions. This is shown in the model iteration exercise earlier.
