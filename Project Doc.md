@@ -11,10 +11,16 @@ For this project, the dataset was downloaded from Kaggle using Python code, whic
 
 [Dataset](Data/sg-resale-flat-prices-2017-onwards.csv)
 
-![DAta Info](Data/hdb_df_info.png)
+![Data Info](Data/hdb_df_info.png)
 
 The dataset contains 181,262 entries and 11 feature columns. These columns are: 'month', 'town', 'flat_type', 'block', 'street_name', 'storey_range', 'floor_area_sqm', 'flat_model', 'lease_commence_date', 'remaining_lease', and 'resale_price'.
 
 All feature columns, except for three, contains categorical datatypes. The features 'floor_area_sqm' and 'resale_price' are of the float datatype, while the feature 'lease_commence_date' is of the integer data type.
 
 Importantly, the entries to all the features are complete ie there are no null entries or missing values. 
+
+## Feature Removal
+In the initial stages of this data preparation, features deemed inconsequential to the resale price were removed. The selection was based on a judgement call, leveraging my familiarity and understanding of the housing market. Later, a correlation analysis will be conducted to determine which of the remaining features significantly impact the resale price. 
+
+The features removed were ‘street_name’, ‘flat_model’ and ‘block’ (refer to figure below).
+
