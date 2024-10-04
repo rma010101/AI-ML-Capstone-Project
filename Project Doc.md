@@ -136,5 +136,10 @@ This is unexpected as the graphs of mean resale prices across towns indicate tha
 
 Despite it, this feature will be retained for further analysis. I plan to make adjustments at a later stage to improve the low correlation index observed in the data (refer to ‘Model Adjustments’ section).
 
-
 ![Data Corr_001](Data/hdb_df_corr_001.png)
+
+### One-hot Encoding
+The steps below (refer to the figure and code below) demonstrate the one-hot encoding of the ‘town’ feature and the repositioning of the ‘resale_price’ column to the end. The dataset now contains thirty-one columns, incorporating all twenty-six towns. The dataset is now prepared for the machine learning phase.
+
+![Data OHE](Data/hdb_df_OHE.png)
+
