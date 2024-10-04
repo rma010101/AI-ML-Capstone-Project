@@ -183,3 +183,12 @@ The independent variables, which represent various factors influencing resale pr
 
 This setup allows the model to use the input features to predict resale prices in a housing dataset, facilitating the next steps of splitting the data for training and testing, fitting the model, and making predictions (refer to figure below).
 
+![Data MT_001](Data/hdb_df_model_training_001.png)
+
+### Model Training
+
+The code below demonstrates the steps involved in training the model. It starts by importing the required libraries and evaluation metrics, then proceeds to instantiate the model using Linear Regression. The model is then fitted to the training data, and finally, the results are generated.
+
+![Data MT_001](Data/hdb_df_model_training_002.png)
+
+
