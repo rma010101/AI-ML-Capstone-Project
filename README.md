@@ -8,4 +8,4 @@
 3. To create transparency and trust, by explaining how the data was collected, cleaned and transformed, how assumptions were made, the criteria for outlier removal, etc.
 
 
-### Please see Project Doc attached for the project description. 
+### Please see Project Doc attached for the project explanation. 
