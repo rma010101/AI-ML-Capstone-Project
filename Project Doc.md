@@ -35,3 +35,5 @@ The boxplot below for ‘floor_area_sqm’ indicates significant outliers, with 
 !['floor_area_sqm'_Outliers](Data/hdb_df_floor_sqm_outliers.png)
 
 Furthermore, there are only a total 976 out of 181262 entries, strengthening the rationale for their removal.
+
+!['resale_price'_Outliers](Data/hdb_df_resale_price_outliers.png)
