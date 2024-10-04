@@ -1,6 +1,6 @@
 # Predictive Modelling of HDB Resale Prices
 
-# Purpose
+Purpose
 1. To document the process of data analysis, involving steps taken during the analysis, from data collection to final insights.
 
 2. To document my thought process throughout the analysis, including the methodology used, any decisions made, and the rationale behind the key steps.
