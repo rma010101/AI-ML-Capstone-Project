@@ -9,4 +9,4 @@ This dataset includes resale price information for HDB flats in Singapore, cover
 
 For this project, the dataset was downloaded from Kaggle using Python code, which originally sourced it from data.gov.sg. 
 
-Dataset[Download](Data/sg-resale-flat-prices-2017-onwards)
+Dataset[Download](Data/sg-resale-flat-prices-2017-onwards.csv)
