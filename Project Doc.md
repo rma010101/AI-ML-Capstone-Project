@@ -171,3 +171,5 @@ Random Forest
 •	Accuracy: Often provides better predictive performance compared to individual decision trees.
 
 •	Feature Importance: Aggregates feature importance from multiple trees, giving a more reliable measure of feature significance.
+
+These algorithms offer a good mix of simplicity, interpretability, and predictive power, making them suitable for initial exploration and comparison in this machine learning project.
