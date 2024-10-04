@@ -75,4 +75,4 @@ positive factor for potential buyers.
 ### Visualization
 Graphical visualizations are powerful tools in data analysis, enabling the identification of trends and patterns that support informed decision-making. In this project, however, the primary purpose of the graphs is to validate the data. For instance, we expect that the price will increase as the floor size increases across all towns, as shown below.
 
-![Data EDA_001](Data/hdb_df_eda_001.png)
+![Data EDA_001](Data/hdb_df_eda_001.PNG)
