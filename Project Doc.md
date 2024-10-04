@@ -27,3 +27,6 @@ The features removed were ‘street_name’, ‘flat_model’ and ‘block’ (r
 ![Initial Features Removed](Data/hdb_df_feature_removed_001.png)
 
 #### Determining Outliers
+Of the feature columns available, 2 features ie 'floor_area_sqm' and 'resale_price' contained numerical data types and are candidates for outlier analysis.
+
+The boxplot below for ‘floor_area_sqm’ indicates significant outliers, with many entries exceeding 160 square meters and falling below 45 square meters. Upon reviewing the smallest and largest floor areas for HDB flats in Singapore, which range from 45 to 186 square meters, it is reasonable to exclude entries below 45 square meters and above 186 square meters. This adjustment will help ensure the dataset accurately represents typical HDB flat sizes. 
