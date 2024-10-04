@@ -174,3 +174,12 @@ Random Forest
 •	Feature Importance: Aggregates feature importance from multiple trees, giving a more reliable measure of feature significance.
 
 These algorithms offer a good mix of simplicity, interpretability, and predictive power, making them suitable for initial exploration and comparison in this machine learning project.
+
+### Preparation for Model Training
+
+In this process of feature selection for multiple linear regression, the target variable `resale_price` is isolated from the dataset to serve as the dependent variable, while all other columns are designated as independent variables for the model. 
+
+The independent variables, which represent various factors influencing resale prices, are stored in a new DataFrame (`x`) by dropping the `resale_price` column. Meanwhile, `resale_price` is set as the output variable (`y`) for the regression analysis. 
+
+This setup allows the model to use the input features to predict resale prices in a housing dataset, facilitating the next steps of splitting the data for training and testing, fitting the model, and making predictions (refer to figure below).
+
