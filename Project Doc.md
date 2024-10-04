@@ -246,4 +246,10 @@ Analysing Outliers by Flat Types
 
 This analysis aims to identify the onset of outliers within the dataset categorized by ‘flat_type’. Once identified, the records containing these outliers will be removed. This adjustment is intended to evaluate whether the model’s performance can be enhanced by excluding these extreme values.
 
+![Data Model_Adjustment_001](Data/hdb_df_model_adjustment_001.png)
 
+The boxplots above illustrate the outliers for each flat type, marking the initial data points identified for removal. The subsequent figure displays the filtered dataset, with all records containing outliers excluded. As a result, the dataset now comprises 173,851 rows, down from the original 180,286 rows. The figures below show the boxplot and the reconstructed histogram with the removed outliers.
+
+![Data Model_Adjustment_002](Data/hdb_df_model_adjustment_002.png)
+
+![Data Model_Adjustment_003](Data/hdb_df_model_adjustment_003.png)
