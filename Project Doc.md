@@ -54,3 +54,20 @@ The figure below shows the conversion of the ‘remaining_lease’ feature from 
 ## Exploratory Data Analysis (EDA)
 
 ### Descriptive Statistics
+
+#### key Insights
+
+Floor Area:
+
+The majority of the flats have a floor area between 82 sqm and 112 sqm, with a mean of 97.34 sqm. This suggests that most flats are medium-sized.
+
+
+Resale Price: 
+
+The resale prices vary significantly, with a mean price of around $498,733.70. The prices are skewed towards higher values, as indicated by the maximum price of $1,588,000.
+
+
+Lease Remaining: 
+
+The lease remaining for most flats is quite high, with a median of 74.5 years. This indicates that the majority of the flats have a substantial amount of lease remaining, which is a 
+positive factor for potential buyers.
