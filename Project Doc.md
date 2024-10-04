@@ -126,7 +126,7 @@ Limited Supply
 
 Limited availability of flats in these prime locations tends to drive prices up.
 
-### Correllation Analysis
+### Correlation Analysis
 
 To prepare for the correlation analysis, the remaining categorical features (‘town’, ‘flat_type’, and ‘storey_range’) are converted into numerical data types. The ‘town’ feature, which has a larger number of categories, will additionally be one-hot encoded later in preparation for machine learning. 
 
