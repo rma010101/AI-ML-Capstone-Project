@@ -79,7 +79,7 @@ Graphical visualizations are powerful tools in data analysis, enabling the ident
 
 In the next analysis, the histogram (refer to figure below) provides a clear visual representation of the distribution of HDB resale prices across different flat types. 
 
-![Data EDA_001](Data/hdb_df_eda_002.PNG)
+![Data EDA_002](Data/hdb_df_eda_002.PNG)
 
 #### Observations:
 
@@ -96,3 +96,5 @@ Policy Implications
 This data could be useful for policymakers to understand housing affordability and demand trends, potentially guiding future housing policies.
 
 From another perspective, when comparing the mean resale prices across various towns by flat types, it becomes evident that certain areas, such as Queenstown, the Central Areas, Bishan, and Ang Mo Kio, consistently have higher prices compared to other towns. This may explain the right-tail distribution of the mean prices across all flat types as shown in the previous graphs. This trend for the mean resale prices across various towns is illustrated in the charts below.
+
+![Data EDA_003](Data/hdb_df_eda_003.PNG)
