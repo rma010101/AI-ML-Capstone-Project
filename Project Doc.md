@@ -102,21 +102,27 @@ From another perspective, when comparing the mean resale prices across various t
 Several factors could contribute to the higher resale prices in towns like Queenstown, the Central Areas, Bishan, and Ang Mo Kio, and within generally accepted expectations.
 
 Location and Accessibility
+
 Proximity to the City Centre: Areas closer to the Central Business District (CBD) and city centre, like Queenstown and the Central Areas, tend to have higher property values due to their prime location.
 
 Transportation Links 
+
 These towns often have excellent public transport links, including MRT stations and bus services, making them highly accessible.
 
 Amenities and Facilities
+
 Educational Institutions: Presence of reputable schools and educational institutions can drive up property prices as families seek to live near good schools.
 
 Healthcare Facilities
+
 Proximity to hospitals and clinics adds to the desirability of these areas.
 Shopping and Entertainment: Availability of shopping malls, restaurants, and entertainment options enhances the attractiveness of these towns.
 
 Market Demand
+
 High Demand: These towns may have a higher demand due to their desirable attributes, leading to increased competition and higher prices.
 
 Limited Supply
+
 Limited availability of flats in these prime locations tends to drive prices up.
 
