@@ -252,7 +252,7 @@ The boxplots above illustrate the outliers for each flat type, marking the initi
 
 ![Data Model_Adjustment_002](Data/hdb_df_model_adjustment_002.png)
 
-![Data Model_Adjustment_003](Data/hdb_df_model_adjustment_003.png)
+![Data Model_Adjustment_003](Data/hdb_df_model_adjustment_003.PNG)
 
 A quick comparison of the filtered versus unfiltered data (see figures below) reveals that a significant amount of information has been removed in the filtered dataset. Notably, floor levels from the 43rd storey onwards are missing. This omission does not accurately represent the real situation.
 
