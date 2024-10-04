@@ -47,4 +47,6 @@ For a start, the ‘remaining_lease’ was converted into months to ensure it's 
 
 The figure below shows the conversion of the ‘remaining_lease’ feature from years-and-months format to a months-only format, resulting in a new feature named ‘lease_remaining’, and the removal of ‘remaining_lease’ column. The second figure shows that none of the values in the ‘lease_remaining’ exceeds 1188 months.
 
+![Data Info](Data/hdb_df_feature_eng_001.png)
+![Data Info](Data/hdb_df_feature_eng_002.png)
 
