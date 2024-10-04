@@ -143,3 +143,6 @@ The steps below (refer to the figure and code below) demonstrate the one-hot enc
 
 ![Data OHE](Data/hdb_df_OHE.png)
 
+## Model Development
+
+### Algorigthm Selection
