@@ -41,3 +41,10 @@ The boxplot below shows the outlier analysis for ‘resale_price’. The boxplot
 !['resale_price'_Outliers](Data/hdb_df_resale_price_outliers.png)
 
 ####	Feature Engineering
+The dataset contains several categorical features that need to be converted to numerical data types or one-hot encoding. 
+
+For a start, the ‘remaining_lease’ was converted into months to ensure it's suitability for machine learning models. The ‘remaining_lease’ feature is significant as it directly impacts buyer behaviour. Thereafter it will be checked for reasonableness, considering that Singapore’s HDB lease is 99 years or 1188 months.
+
+The figure below shows the conversion of the ‘remaining_lease’ feature from years-and-months format to a months-only format, resulting in a new feature named ‘lease_remaining’, and the removal of ‘remaining_lease’ column. The second figure shows that none of the values in the ‘lease_remaining’ exceeds 1188 months.
+
+
