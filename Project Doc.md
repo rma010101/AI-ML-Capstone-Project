@@ -12,7 +12,7 @@ For this project, the dataset is downloaded from Kaggle using Python code, which
 
 [Dataset](Data/sg-resale-flat-prices-2017-onwards.csv)
 
-![Data Info](Data/hdb_df_info.png)
+![Data Info](img/hdb_df_info.png)
 
 The dataset contains 181,262 entries and 11 feature columns. These columns are: 'month', 'town', 'flat_type', 'block', 'street_name', 'storey_range', 'floor_area_sqm', 'flat_model', 'lease_commence_date', 'remaining_lease', and 'resale_price'.
 
@@ -25,7 +25,7 @@ In the initial stages of this data preparation, features deemed inconsequential 
 
 The features removed were ‘street_name’, ‘flat_model’ and ‘block’ (refer to figure below).
 
-![Initial Features Removed](Data/hdb_df_feature_removed_001.png)
+![Initial Features Removed](img/hdb_df_feature_removed_001.png)
 
 
 #### Determining Outliers
@@ -33,13 +33,13 @@ Of the feature columns available, 2 features ie 'floor_area_sqm' and 'resale_pri
 
 The boxplot below for ‘floor_area_sqm’ indicates significant outliers, with many entries exceeding 160 square meters and falling below 45 square meters. Upon reviewing the smallest and largest floor areas for HDB flats in Singapore, which range from 45 to 186 square meters, it is reasonable to exclude entries below 45 square meters and above 186 square meters. This adjustment will help ensure the dataset accurately represents typical HDB flat sizes. 
 
-!['floor_area_sqm'_Outliers](Data/hdb_df_floor_sqm_outliers.png)
+!['floor_area_sqm'_Outliers](img/hdb_df_floor_sqm_outliers.png)
 
 Furthermore, there are only a total 976 out of 181262 entries, strengthening the rationale for their removal.
 
 The boxplot below shows the outlier analysis for ‘resale_price’. The boxplot reveals numerous data points outside the upper bound of Q3 + 1.5 x IQR. Further investigation indicated a total of 3858 entries in this category. A check on the maximum transacted price revealed that the highest transaction is at $1588000, which although seemingly high, accurately reflects the current market trend, particularly on the higher end model. As a result, I have decided to retain all these outliers.
 
-!['resale_price'_Outliers](Data/hdb_df_resale_price_outliers.png)
+!['resale_price'_Outliers](img/hdb_df_resale_price_outliers.png)
 
 ####	Feature Engineering
 The dataset contains several categorical features that need to be converted to numerical data types or one-hot encoding. 
@@ -48,9 +48,9 @@ For a start, the ‘remaining_lease’ is converted into months to ensure it's s
 
 The figure below shows the conversion of the ‘remaining_lease’ feature from years-and-months format to a months-only format, resulting in a new feature named ‘lease_remaining’, and the removal of ‘remaining_lease’ column. The second figure shows that none of the values in the ‘lease_remaining’ exceeds 1188 months. With the redefinition of ‘remaining_lease’, the features ‘month’ and ‘lease_commence_date’ have become redundant and are removed from the dataset. 
 
-![Data Feature_Rem_001](Data/hdb_df_feature_eng_001.png)
+![Data Feature_Rem_001](img/hdb_df_feature_eng_001.png)
 
-![Data Feature_Rem_002](Data/hdb_df_feature_eng_002.png)
+![Data Feature_Rem_002](img/hdb_df_feature_eng_002.png)
 
 ## Exploratory Data Analysis (EDA)
 
@@ -76,11 +76,11 @@ positive factor for potential buyers.
 ### Visualization
 Graphical visualizations are powerful tools in data analysis, enabling the identification of trends and patterns that support informed decision-making. In this project, however, the primary purpose of the graphs is to validate the data. For instance, we expect that the price will increase as the floor size increases across all towns, as shown below.
 
-![Data EDA_001](Data/hdb_df_eda_001.PNG)
+![Data EDA_001](img/hdb_df_eda_001.PNG)
 
 In the next analysis, the histogram (refer to figure below) provides a clear visual representation of the distribution of HDB resale prices across different flat types. 
 
-![Data EDA_002](Data/hdb_df_eda_002.PNG)
+![Data EDA_002](img/hdb_df_eda_002.PNG)
 
 #### Observations:
 
@@ -98,7 +98,7 @@ This data could be useful for policymakers to understand housing affordability a
 
 From another perspective, when comparing the mean resale prices across various towns by flat types, it becomes evident that certain areas, such as Queenstown, the Central Areas, Bishan, and Ang Mo Kio, consistently have higher prices compared to other towns. This may explain the right-tail distribution of the mean prices across all flat types as shown in the previous graphs. This trend for the mean resale prices across various towns is illustrated in the charts below.
 
-![Data EDA_003](Data/hdb_df_eda_003.PNG)
+![Data EDA_003](img/hdb_df_eda_003.PNG)
 
 Several factors could contribute to the higher resale prices in towns like Queenstown, the Central Areas, Bishan, and Ang Mo Kio, and within generally accepted expectations.
 
@@ -137,12 +137,12 @@ This is unexpected as the graphs of mean resale prices across towns indicate tha
 
 Despite it, this feature will be retained for further analysis. I plan to make adjustments at a later stage to improve the low correlation index observed in the data (refer to ‘Model Adjustments’ section).
 
-![Data Corr_001](Data/hdb_df_corr_001.png)
+![Data Corr_001](img/hdb_df_corr_001.png)
 
 ### One-hot Encoding
 The steps below (refer to the figure and code below) demonstrate the one-hot encoding of the ‘town’ feature and the repositioning of the ‘resale_price’ column to the end. The dataset now contains thirty-one columns, incorporating all twenty-six towns. The dataset is now prepared for the machine learning phase.
 
-![Data OHE](Data/hdb_df_OHE.png)
+![Data OHE](img/hdb_df_OHE.png)
 
 ## Model Development
 
@@ -184,13 +184,13 @@ The independent variables, which represent various factors influencing resale pr
 
 This setup allows the model to use the input features to predict resale prices in a housing dataset, facilitating the next steps of splitting the data for training and testing, fitting the model, and making predictions (refer to figure below).
 
-![Data MT_001](Data/hdb_df_model_training_001.png)
+![Data MT_001](img/hdb_df_model_training_001.png)
 
 ### Model Training
 
 The code below demonstrates the steps involved in training the model. It starts by importing the required libraries and evaluation metrics, then proceeds to instantiate the model using Linear Regression. The model is then fitted to the training data, and finally, the results are generated.
 
-![Data MT_002](Data/hdb_df_model_training_002.png)
+![Data MT_002](img/hdb_df_model_training_002.png)
 
 ## Model Evaluation
 
@@ -218,9 +218,9 @@ Additionally, the model is trained using Decision Tree Regression and Random For
 
 The models are evaluated using Mean Absolute Error (MAE), R-squared (R²), and Root Mean Squared Error (RMSE) metrics to determine which performs best on the same test set (refer to figures below).
 
-![Data Results_Compared_001](Data/hdb_df_model_results_compared_001.png)
+![Data Results_Compared_001](img/hdb_df_model_results_compared_001.png)
 
-![Data Results_Compared_002](Data/hdb_df_model_results_compared_002.png)
+![Data Results_Compared_002](img/hdb_df_model_results_compared_002.png)
 
 The results from the three iterations show a clear progression in model performance:
 
@@ -247,29 +247,29 @@ Analysing Outliers by Flat Types
 
 This analysis aims to identify the onset of outliers within the dataset categorized by ‘flat_type’. Once identified, the records containing these outliers will be removed. This adjustment is intended to evaluate whether the model’s performance can be enhanced by excluding these extreme values.
 
-![Data Model_Adjustment_001](Data/hdb_df_model_adjustment_001.png)
+![Data Model_Adjustment_001](img/hdb_df_model_adjustment_001.png)
 
 The boxplots above illustrate the outliers for each flat type, marking the initial data points identified for removal. As a result, the dataset now comprises 173,851 rows, down from the original 180,286 rows. The figures below show the boxplot and the reconstructed histogram with the removed outliers.
 
-![Data Model_Adjustment_002](Data/hdb_df_model_adjustment_002.png)
+![Data Model_Adjustment_002](img/hdb_df_model_adjustment_002.png)
 
-![Data Model_Adjustment_003](Data/hdb_df_model_adjustment_003.png)
+![Data Model_Adjustment_003](img/hdb_df_model_adjustment_003.png)
 
 A quick comparison of the filtered versus unfiltered data (see figures below) reveals that a significant amount of information has been removed in the filtered dataset. Notably, floor levels from the 43rd storey onwards are missing. This omission does not accurately represent the real situation.
 
-![Data Model_Adjustment_004](Data/hdb_df_model_adjustment_004.PNG)
+![Data Model_Adjustment_004](img/hdb_df_model_adjustment_004.PNG)
 
 The figure below illustrates the correlation after adjusting for outliers. The correlation indices between flat_type, floor_area_sqm, storey_range, and lease_remaining in relation to resale_price have all increased slightly. However, the correlation between town and resale_price has weakened. While this aligns with expectations, removing the town feature is not realistic, as this feature should impact resale prices.
 
-![Data Model_Adjustment_005](Data/hdb_df_model_adjustment_005.png)
+![Data Model_Adjustment_005](img/hdb_df_model_adjustment_005.png)
 
 Here are the results (refer to figures below) of the MAE, R², and RMSE scores after iterating with Linear Regression, Decision Tree Regression, and Random Forest models:
 
-![Data Result After_Adjustment_001](Data/hdb_df_results_after_adjustment_001.PNG)
+![Data Result After_Adjustment_001](img/hdb_df_results_after_adjustment_001.PNG)
 
 When comparing the results before and after removing outliers (refer to figures below), improvements in the MAE and RMSE scores are evident. However, the R² scores have decreased slightly by 1 to 2%. The decision to retain or remove outliers is debatable, but I recommend keeping the outliers to ensure the results remain realistic and to capture the real situation in the market.
 
-![Data Result Before After_Adjustment_001](Data/hdb_df_results_before_after_adjustment_001.PNG)
+![Data Result Before After_Adjustment_001](img/hdb_df_results_before_after_adjustment_001.PNG)
 
 ## Conclusion
 
