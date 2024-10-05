@@ -27,6 +27,8 @@ The features removed were ‘street_name’, ‘flat_model’ and ‘block’ (r
 
 ![Initial Features Removed](Data/hdb_df_feature_removed_001.png)
 
+![Initial Features Removed](Data/img_002.png)
+
 #### Determining Outliers
 Of the feature columns available, 2 features ie 'floor_area_sqm' and 'resale_price' contained numerical data types and are candidates for outlier analysis.
 
